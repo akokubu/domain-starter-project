@@ -16,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "copy:abi": "cp ../cool-domains/artifacts/contracts/Domains.sol/Domains.json src/utils/contractABI.json"
   },
   "eslintConfig": {
     "extends": [
